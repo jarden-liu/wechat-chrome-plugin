@@ -4,7 +4,6 @@
     "manifest_version": 2,
     "description": "微信网页版",
     "icons": {
-        "0": "wechat_icon.png",
         "16": "wechat_icon.png",
         "32": "wechat_icon.png",
         "48": "wechat_icon.png",
