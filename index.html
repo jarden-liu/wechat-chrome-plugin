@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>微信撩妹专业版</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            margin: 0 auto;
+        }
+
+        .hide {
+            display: none;
+        }
+
+        webview {
+            height: calc(100%);
+            margin: 0px;
+            outline: 1px dashed #999;
+            /*position: absolute;*/
+            width: calc(100%);
+        }
+
+        #loading {
+            height: 100%;
+            margin: 0px;
+            outline: 1px dashed #999;
+            width: 100%;
+        }
+
+        #loading img {
+            position: absolute;
+            top: calc(50% - 100px);
+            left: calc(50% - 200px);
+            width: 400px;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <webview id="wx" src="https://wx.qq.com/"></webview>
+    <div id="loading">
+        <img src='loading.gif'/>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
